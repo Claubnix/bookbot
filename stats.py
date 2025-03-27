@@ -14,5 +14,4 @@ def get_character_count(text):
 
 def sort_dict_by_value(dictionary):
     dic = list(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
-    #dic = list(dic.items())
     return dic
