@@ -13,6 +13,6 @@ def get_character_count(text):
     return character_count
 
 def sort_dict_by_value(dictionary):
-    dic = dict(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
-    dic = list(dic.items())
+    dic = list(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
+    #dic = list(dic.items())
     return dic
